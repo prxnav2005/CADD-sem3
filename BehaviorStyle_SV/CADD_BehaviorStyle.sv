@@ -148,9 +148,9 @@ endmodule
 
 // Code for JK Flip-Flop
 /*
-module jkff(input logic j,k,clk, inout logic q);
+module jkff(input logic j,k,clk, output logic q);
   always_ff @(posedge clk)
-    case ({J,K})
+    case ({j,k})
       2'b00 : q <= q;
       2'b01 : q <= 0;
       2'b10 : q <= 1;
