@@ -8,4 +8,3 @@
 
 Incase of any corrections, please text me @6364820816. Hope it helps y'all.
 
-test idk whats wrong man
